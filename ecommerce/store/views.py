@@ -1,8 +1,6 @@
 from .models import *
 from django.shortcuts import render
 
-
-
 def store(request):
     products=Product.objects.all()
     context={'products':products}
