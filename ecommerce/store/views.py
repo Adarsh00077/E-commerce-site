@@ -15,8 +15,6 @@ def store(request):
 		cartItems = order.get_cart_items
 	else:
 		cookieData=cookieCart(request)
-		items=cookieData['items']
-		order=cookieData['order']
 		cartItems=cookieData['cartItems']
 
 	products = Product.objects.all()
@@ -49,8 +47,9 @@ def checkout(request):
 		items = order.orderitem_set.all()
 		cartItems = order.get_cart_items
 	else:
-		#Create empty cart for now for non-logged in user
 		cookieData=cookieCart(request)
+		items=cookieData['items']
+		order=cookieData['order']
 		cartItems=cookieData['cartItems']
 
 	context = {'items':items, 'order':order, 'cartItems':cartItems}
