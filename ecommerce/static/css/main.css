@@ -28,6 +28,17 @@ h1,h2,h3,h4,h5,h6{
 	background-color: #067fcf!important;
 }
 
+#brand-logo{
+	width:35px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.shopnotion {
+	font-weight: 500;
+}
+
 #cart-icon{
 	width:25px;
 	display: inline-block;
