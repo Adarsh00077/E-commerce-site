@@ -1,1 +1,1 @@
-web: gunicorn shopnotion.wsgi --log-file -
+web: gunicorn ecommerce.wsgi --log-file -
