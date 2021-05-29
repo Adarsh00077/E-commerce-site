@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-9(j)$i4#8h+vxwzv0ozws0vj&r112@%37*p^unb!$)u0*zv0(-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','shopnotion.herokuapp.com']
+ALLOWED_HOSTS = ['shopnotion.herokuapp.com']
 
 
 # Application definition
